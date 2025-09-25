@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Praxis-Demo & Pitch (Blau)</title>
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body{font-family:system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+         margin:0; background:#f8fafc; color:#0f172a;}
+    header{background:#2563eb; color:white; text-align:center; padding:40px 20px;}
+    header h1{margin:0; font-size:2rem;}
+    header p{margin:10px 0 0;}
+    main{max-width:900px; margin:0 auto; padding:20px;}
+    .section{margin:40px 0;}
+    h2{margin-top:0; color:#2563eb;}
+    iframe.demo{width:100%; height:600px; border:1px solid #e5e7eb; border-radius:12px;}
+    .buttons{display:flex; flex-wrap:wrap; gap:16px; margin-top:20px;}
+    .btn{display:inline-flex; align-items:center; gap:10px;
+         background:#2563eb; color:#fff; padding:12px 18px; border-radius:12px;
+         text-decoration:none; font-weight:600;}
+    .btn:hover{background:#1e40af;}
+    footer{text-align:center; padding:20px; font-size:.9rem; color:#64748b;}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Praxis-Demo & Pitch</h1>
+    <p>Digitale Rezeption · Live-Demo · Preisübersicht</p>
+  </header>
+
+  <main>
+    <section class="section">
+      <h2><i class="fa fa-display"></i> Live-Demo Website</h2>
+      <p>Hier können Sie die digitale Rezeption testen. (Demo-Version, Daten werden nicht gespeichert.)</p>
+      <iframe class="demo" src="demo/index.html" title="Praxis Demo"></iframe>
+    </section>
+
+    <section class="section">
+      <h2><i class="fa fa-file-pdf"></i> Dokumente</h2>
+      <div class="buttons">
+        <a class="btn" href="Pitch_Demo_Hausarztpraxis.pdf" target="_blank">
+          <i class="fa fa-lightbulb"></i> Pitch-Dokument
+        </a>
+        <a class="btn" href="Preis_Pakete_Hausarztpraxis.pdf" target="_blank">
+          <i class="fa fa-euro-sign"></i> Preis-Pakete
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © Demo-Website für eine Hausarztpraxis · Fiktive Daten
+  </footer>
+</body>
+</html>
